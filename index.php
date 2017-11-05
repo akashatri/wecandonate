@@ -10,6 +10,7 @@ $query = $DBcon->query("SELECT * FROM tbl_users WHERE user_id=".$_SESSION['userS
 $userRow=$query->fetch_array();
 $DBcon->close();
 
+
 ?>
 <html>
 <head>
