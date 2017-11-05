@@ -1,0 +1,110 @@
+*{
+	/* Universal page reset */
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* Setting default text color, background and a font stack */
+	font-size:13px;
+	color:#9bb370;
+	background-color:#f9faf7;
+	font-family:Rockwell, 'Courier New', Courier, Georgia, serif;
+}
+
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+
+h1{
+	/* The Donation Center text */
+	border-bottom:1px solid #E3EBD2;
+	color:#639600;
+	font-size:70px;
+	line-height:1;
+	margin-left:-20px;
+	padding:0 0 0 30px;
+}
+
+h2{
+	/* The subtitle, notice the line-height property */
+	border-left:1px solid #E3EBD2;
+	color:#ABC084;
+	font-size:35px;
+	height:35px;
+	line-height:75px;
+	margin:-70px 0 0;
+	padding:55px 0 0 10px;
+}
+
+h3{
+	color:#639600;
+	font-size:38px;
+}
+
+#main{
+	/* The main container div */
+	margin:40px auto;
+	padding:0 0 0 20px;
+	position:relative;
+	width:860px;
+}
+
+.chart{
+	/* The Google Chart is set as this div's background via the style attribute.
+	The negative text-indent moves the text outside the box */
+
+	margin:0 0 0 300px;
+	text-indent:-300px;
+	width:200px;
+}
+
+.donations,.chart{
+	color:#ABC084;
+	font-size:50px;
+	font-weight:bold;
+	float:left;
+	height:200px;
+	line-height:200px;
+}
+
+.donations{ text-align:right; width:340px;}
+.comments{ margin-top:60px;}
+.entry{ margin-bottom:50px;}
+
+.comment{
+	background-color:#edf2e4;
+	padding:20px;
+	position:relative;
+	margin-bottom:20px;
+}
+
+.name{
+	color:#639600;
+	font-size:24px;
+	font-style:italic;
+	font-weight:bold;
+	position:relative;
+}
+
+.name a.url{
+	color:#C0D39C;
+	font-weight:normal;
+	padding-left:10px;
+}
+
+.tip{
+	width:0;
+	height:0;
+	bottom:-40px;
+	left:20px;
+
+	/* A neat CSS trick which creates a triangle shape*/
+	/* from the div's top border */
+
+	border:20px solid #f9faf7;
+	border-width:20px 15px;
+	border-top-color:#edf2e4;
+	position:absolute;
+}
